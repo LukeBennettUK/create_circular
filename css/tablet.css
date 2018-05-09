@@ -1,0 +1,114 @@
+body {
+  background: pink;
+}
+
+
+
+/**********************************************
+HEADER
+***********************************************/
+
+.content {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+
+
+/**********************************************
+MAIN
+***********************************************/
+
+.skewedBox-container {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+/* Section 1 */
+#section1 {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* Section 2 */
+/* #section2 {
+  margin-bottom: 504.797px;
+} */
+
+#section2 div {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#section2 img {
+  display: inline-block;
+  height: 40%;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+
+
+/**********************************************
+PORTFOLIO: MAIN
+***********************************************/
+
+#portfolio main {
+  margin-bottom: 535.797px;
+}
+
+@media only screen and (max-width: 740px) and (min-width: 719px) {
+
+  #portfolio main {
+    margin-bottom: 515.797px;
+  }
+
+}
+
+@media only screen and (max-width: 718px) and (min-width: 560px) {
+
+  #portfolio main {
+    margin-bottom: 719.688px;
+  }
+
+}
+
+@media only screen and (max-width: 559px) {
+
+  #portfolio main {
+    margin-bottom: 741.688px;
+  }
+
+}
+
+
+
+/**********************************************
+PORTFOLIO: PORTFOLIO FULL
+***********************************************/
+
+.portfolio-full img {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 737px) {
+
+  .portfolio-full img {
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 472px) {
+
+  .portfolio-preview-wrapper figure:nth-child(1) {
+    width: 100%;
+    min-width: 0;
+  }
+
+}
+
+.portfolio-preview-wrapper {
+  margin-bottom: 150px;
+}

@@ -1,0 +1,144 @@
+.site {
+  display: none;
+}
+
+.tablet {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+/* p {
+  letter-spacing: 1px;
+} */
+
+/**********************************************
+INDEX: HEADER
+***********************************************/
+
+.hero #arrow {
+  width: 10vw;
+  left: calc(50% - 5vw);
+}
+
+.overlay {
+  /* background: rgba(0,0,0,0.3); */
+}
+
+.content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/**********************************************
+INDEX: MAIN
+***********************************************/
+
+.skewedBox-container {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+/* Section 1 */
+#section1 {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/* Floating Boxes */
+.floating-boxes,
+.floating-boxes .overlay,
+.floating-boxes .container {
+  height: 3400px;
+}
+
+#primary,
+#tertiary,
+#secondary {
+  padding-right: 80px;
+}
+
+/* Primary */
+#primary {
+  top: 2.5%;
+}
+
+/* Secondary */
+#secondary {
+  top: 35%;
+}
+
+/* Tertiary */
+#tertiary {
+  bottom: 2%;
+}
+
+
+
+/* Section 2 */
+#section2 {
+  margin-bottom: 711.688px;
+}
+
+#section2 div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#section2 img {
+  display: inline-block;
+  /* padding: 100px; */
+  /* border: 1px solid black; */
+  height: 40%;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+
+
+/**********************************************
+PORTFOLIO: MAIN
+***********************************************/
+
+#portfolio main {
+  margin-bottom: 741.688px;
+}
+
+#portfolio .whiteLogo {
+  margin-top: 50vh;
+}
+
+#portfolio aside {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+/**********************************************
+PORTFOLIO: PORTFOLIO FULL INFO
+***********************************************/
+
+.portfolio-full img {
+  width: 78%;
+  margin-bottom: 100px;
+}
+
+.portfolio-preview-wrapper {
+  margin-bottom: 90px;
+}
+
+.portfolio-preview-wrapper figure:nth-child(1) {
+  width: 100%;
+  min-width: 0;
+}
+
+.portfolio-full button {
+  margin-bottom: 120px;
+}
+
+.portfolio-full button a {
+  padding: 20px 80px;
+}
